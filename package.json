@@ -1,0 +1,24 @@
+{
+  "name": "sequence-logo-data-studio-visualization",
+  "version": "1.0.0",
+  "description": "Sequence logo Data Studio visualization.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cofactor-io/sequence-logo-data-studio-visualization.git"
+  },
+  "author": "Anton Vasetenkov <antvaset@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cofactor-io/sequence-logo-data-studio-visualization/issues"
+  },
+  "homepage": "https://github.com/cofactor-io/sequence-logo-data-studio-visualization#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.3",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  },
+  "dependencies": {
+    "@google/dscc": "^0.3.12",
+    "d3": "^5.9.7"
+  }
+}

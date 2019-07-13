@@ -1,0 +1,24 @@
+{
+    "name": "Sequence Logo",
+    "organization": "Cofactor",
+    "description": "Sequence logo visualization",
+    "logoUrl": "https://github.com/cofactor-io/sequence-logo-data-studio-visualization/raw/master/logo.png",
+    "organizationUrl": "https://cofactor.io",
+    "supportUrl": "https://github.com/cofactor-io/sequence-logo-data-studio-visualization/issues",
+    "privacyPolicyUrl": "https://github.com/cofactor-io/sequence-logo-data-studio-visualization#readme",
+    "termsOfServiceUrl": "https://github.com/cofactor-io/sequence-logo-data-studio-visualization#readme",
+    "packageUrl": "https://github.com/cofactor-io/sequence-logo-data-studio-visualization",
+    "devMode": true,
+    "components": [
+        {
+            "name": "logo",
+            "description": "Sequence logo visualization",
+            "iconUrl": "https://github.com/cofactor-io/sequence-logo-data-studio-visualization/raw/master/logo.png",
+            "resource": {
+                "js": "gs://cofactor-data-studio-visualizations/sequence-logo/index.js",
+                "config": "gs://cofactor-data-studio-visualizations/sequence-logo/index.json",
+                "css": "gs://cofactor-data-studio-visualizations/sequence-logo/index.css"
+            }
+        }
+    ]
+}
